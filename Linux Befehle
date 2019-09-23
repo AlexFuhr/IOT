@@ -1,0 +1,15 @@
+Make  	- 									Allrounder, mache etwas
+Flash 	-									Scatch hochladen
+term	- 									öffnet terminal Fenster(mache im Term.)
+make BUILD_IN_DOCKER=1 term - 				holt notwendige daten
+make all term -								startet das .c file in dem task-0x Ordner
+make all term PORT=X -						Native Shell einem PORT zuweisen
+BOARD=samr21-xpro make all flash term -		Write on Board example
+ 
+
+
+ipconfig / (ip a):
+
+if - Interface (Nummer zb. 4)
+L2 Adress [bcast] 
+Mac Dresse == Hardware Adresse
