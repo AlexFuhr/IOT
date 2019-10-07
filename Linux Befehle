@@ -1,10 +1,10 @@
 Make  	- 									Allrounder, mache etwas
 Flash 	-									Scatch hochladen
 term	- 									öffnet terminal Fenster(mache im Term.)
-make BUILD_IN_DOCKER=1 term - 				holt notwendige daten
+make BUILD_IN_DOCKER=1 term - 					holt notwendige daten
 make all term -								startet das .c file in dem task-0x Ordner
 make all term PORT=X -						Native Shell einem PORT zuweisen
-BOARD=samr21-xpro make all flash term -		Write on Board example
+BOARD=pba-d-01-kw2x BUILD_IN_DOCKER=1 make all flash term -				Write on Board example
  
 
 
@@ -13,3 +13,26 @@ ipconfig / (ip a):
 if - Interface (Nummer zb. 4)
 L2 Adress [bcast] 
 Mac Dresse == Hardware Adresse
+
+
+BOARDS INFO:
+##########
+Desktop/RIOT/examples/gnrc_networking$ make info-boards-supported | grep esp
+##########
+Board Name:
+-esp32-mh-et-live-minikit
+
+
+Examle: 
+	-BOARD=esp32-mh-et-live-minikit make all flash term
+ 	-BOARD=esp32-mh-et-live-minikit make BUILD_IN_DOCKER=1 all flash term
+
+
+Folder: /home/networker/Desktop/ESP32-MINI-KIT/Shield libraries/ESP32/examples/Timer/RepeatTimer/
+
+
+
+
+
+
+
