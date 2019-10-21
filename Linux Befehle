@@ -15,6 +15,7 @@ L2 Adress [bcast]
 Mac Dresse == Hardware Adresse
 
 
+
 BOARDS INFO:
 ##########
 Desktop/RIOT/examples/gnrc_networking$ make info-boards-supported | grep esp
@@ -30,11 +31,16 @@ Examle:
 To start BME280 Sensort: /home/networker/Desktop/RIOT/tests/driver_bmx280/
 
 Folder: /home/networker/Desktop/ESP32-MINI-KIT/Shield libraries/ESP32/examples/Timer/RepeatTimer/
-	Desktop/RIOT/tests/driver_bmx280$ BOARD=esp32-mh-et-live-minikit BUILD_IN_DOCKER=1 ESPTOOL=$(which esptool) make all flash term 
+	Desktop/RIOT/tests/driver_bmx280$ 
+	BOARD=esp32-mh-et-live-minikit BUILD_IN_DOCKER=1 ESPTOOL=$(which esptool) make all flash term 
+
 Dokumentation Adress:
 	https://riot-os.org/api/group__boards__esp32__mh-et-live-minikit.html
 	https://macsbug.wordpress.com/2017/07/10/esp32-minikit/
 	/home/networker/Desktop/RIOT/drivers/bmx280/include/bmx280_params.h
+	
+Useful links: 
+	https://www.mikrocontroller.net/topic/159353
 
 
 Next Steps: 
