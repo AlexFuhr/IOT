@@ -32,6 +32,7 @@ To start BME280 Sensort: /home/networker/Desktop/RIOT/tests/driver_bmx280/
 
 Folder: /home/networker/Desktop/ESP32-MINI-KIT/Shield libraries/ESP32/examples/Timer/RepeatTimer/
 	Desktop/RIOT/tests/driver_bmx280$ 
+	
 	BOARD=esp32-mh-et-live-minikit BUILD_IN_DOCKER=1 ESPTOOL=$(which esptool) make all flash term 
 
 Dokumentation Adress:
@@ -39,6 +40,8 @@ Dokumentation Adress:
 	https://macsbug.wordpress.com/2017/07/10/esp32-minikit/
 	/home/networker/Desktop/RIOT/drivers/bmx280/include/bmx280_params.h
 	
+	/home/networker/Desktop/RIOT2/tests/driver_bme280/	
+
 Useful links: 
 	https://www.mikrocontroller.net/topic/159353
 
@@ -46,6 +49,28 @@ Useful links:
 Next Steps: 
 -WeMos D1 mini and this Battery Shield.
 -Item #2871 / 3.3 V Step up Step Down Voltage
+
+-Vorbereitung der Übergabe der Sensordaten über Soul-Interface - []
+-Kommunikation mit anderer Gruppe   - []
+-Daten an Display mit modularer Struktur (Name, Value) senden  - []
+-Sensordaten Höchenmessung - []
+-UDP communication ESP32 - []
+-Muli hot mit routing tabellen - [] 
+-Webapplication mit js (java script) APM-Package über CoAp Get Request  - []
+-Webdesign mit Framework - []
+-CoAP 1: > GET/POST Saul/dev {} - []
+-CoAP 2: > GET/pressure (Favorit) - [] 
+-CoAP 3: > Sensor name id in the header to choise one of Sensors - []
+-Wlan / LowPan übersetzer als Raspberry pi (http nach CoAP Übersetzung notwendig) - []
+-Netzwerkschicht ist die Ip aber 2 Verschiedene Linklayer(übertragungstechnologien) - []
+-Moglicherweise Daten im Raspberry pi minütlich benutzen -[Lowpan packet eventuell Firewall Problem]
+
+
+
+
+
+
+
 
 
 
