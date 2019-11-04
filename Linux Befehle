@@ -50,6 +50,8 @@ Next Steps:
 -WeMos D1 mini and this Battery Shield.
 -Item #2871 / 3.3 V Step up Step Down Voltage
 
+
+Anmerkungen an die Vorträge:
 -Vorbereitung der Übergabe der Sensordaten über Soul-Interface - []
 -Kommunikation mit anderer Gruppe   - []
 -Daten an Display mit modularer Struktur (Name, Value) senden  - []
@@ -66,7 +68,20 @@ Next Steps:
 -Moglicherweise Daten im Raspberry pi minütlich benutzen -[Lowpan packet eventuell Firewall Problem]
 
 
+TO DO: 
 
+	-PAD Einheit in Soul implementieren
+	-Beschreibung hinzufügen
+	-Mittelwerte aus 5 werten Bilden (Meridian) damit Ausreißer weck geschnitten werden
+	-PhyDat benutzt 16 Bit
+	-Zeit ermitteln
+	-
+	
+	issue: 
+	
+	https://github.com/rosetree/riot-saul-coap/issues/16
+	
+	
 
 
 
