@@ -42,6 +42,13 @@ Dokumentation Adress:
 	
 	/home/networker/Desktop/RIOT2/tests/driver_bme280/	
 
+Header Datas: 
+	/home/networker/Desktop/RIOT2/drivers/include/saul.h
+	/home/networker/Desktop/RIOT2/sys/include/phydat.h
+
+PhyDat:
+	/home/networker/Desktop/RIOT2/sys/phydat/
+
 Useful links: 
 	https://www.mikrocontroller.net/topic/159353
 
@@ -83,8 +90,11 @@ TO DO:
 	
 	
 
-
-
+Progress: 
+1. Insert issue 'The air pressure value for the height measurement '  (https://github.com/rosetree/riot-saul-coap/issues/16)
+2. UNIT_PAD,       /**< Pascal decimal */   (/home/networker/Desktop/RIOT2/sys/include/phydat.h)
+3. case UNIT_PAD;	    return "Pa(dec)"   (/home/networker/Desktop/RIOT2/sys/phydat/phydat_str.c)
+4. case -1:    return 'd';  (/home/networker/Desktop/RIOT2/sys/phydat/phydat_str.c)
 
 
 
