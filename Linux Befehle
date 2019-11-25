@@ -93,6 +93,7 @@ TO DO:
 Progress: 
 1. Insert issue 'The air pressure value for the height measurement '  (https://github.com/rosetree/riot-saul-coap/issues/16)
 2. UNIT_PAD,       /**< Pascal difference */   (/home/networker/Desktop/RIOT2/sys/include/phydat.h)
+   #define PAD_BASE_PRESSURE_PA        (101325)
 3. case UNIT_PAD;	    return "PaD"   (/home/networker/Desktop/RIOT2/sys/phydat/phydat_str.c)
 4. case -1:    return 'd';  (/home/networker/Desktop/RIOT2/sys/phydat/phydat_str.c)
 5. const saul_driver_t bme280_pressure_saul_driver = { (/home/networker/Desktop/RIOT2/drivers/bmx280/bmx280_saul.c)
@@ -101,13 +102,16 @@ Progress:
 	{  res->val[0] = bme280_read_pressure((const bmx280_t *)dev) / 100; }
 7.  res->val[0] = bmx280_read_pressure((const bmx280_t *)dev) - PAD_BASE_PRESSURE_PA;
 8. #define PAD_BASE_PRESSURE_PA (101325) (sys/include/phydat.h) + definition
-9. 
-10.
-11.
+9. extern const saul_driver_t bme280_pressure_mapd_saul_driver; - (/home/networker/Desktop/RIOT/drivers/include/bmx280.h) 
+10. - (/home/networker/Desktop/RIOT/sys/auto_init/saul/auto_init_bmx280.c)
+11./home/networker/Desktop/RIOT2/drivers/bmx280/bmx280.h
 
 
-Push up mit der Gruppe ( nur Notwendige Commits, villeicht eigener Brunch) Getrennte Pull requests (Einheite / und Treiber)   
-TO DO 2 sensoren synchronize und höhendifferenz zwischen 2 sensoren in Real Time ermitteln
-Module in der Firmware standarm aktiviren (use Module BME:::)
+
+TO DO:
+- Push up mit der Gruppe ( nur Notwendige Commits, villeicht eigener Brunch) Getrennte Pull requests (Einheite / und Treiber)    
+- 2 sensoren synchronize und höhendifferenz zwischen 2 sensoren in Real Time ermitteln
+- Module in der Firmware standarm aktiviren (use Module BME:::)
+
 
  
