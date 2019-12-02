@@ -1,0 +1,73 @@
+b02:~/Desktop/riot-saul-coap$ history
+    1  pwd
+    2  df
+    3  thunar
+    4  exit
+    5  cd Desktop
+    6  git clone https://github.com/AlexFuhr/IOT.git
+    7  git clone https://github.com/AlexFuhr/RIOT.git
+    8  git clone https://github.com/AlexFuhr/RIOT2.git
+    9  git clone https://github.com/AlexFuhr/riot-saul-coap.git
+   10  cd riot-saul-coap/
+   11  git submodule init
+   12  git submodule init --rECURSIVE
+   13  git submodule init --recursive
+   14  ls RIOT/
+   15  cd RIOT/
+   16  git submodule init
+   17  git submodule update
+   18  cd ..
+   19  ls
+   20  cd RIOT/
+   21  git status
+   22  git log
+   23  git remote -vv
+   24  cd c..
+   25  cd ..
+   26  BOARD=esp32-mh-et-live-minikit BUILD_IN_DOCKER=1 ESPTOOL=$(which esptool) make all flash term
+   27  git branch -a
+   28  git remote -vv
+   29  git remote --help
+   30  git remote add upsream https://github.com/rosetree/riot-saul-coap.git
+   31  git branch -a
+   32  git remote -vv
+   33  git fetch upstream
+   34  git remote help
+   35  git remote rename upsream upstream
+   36  git fetch upstream
+   37  git remote -vv
+   38  git log
+   39  git rebase upstram/master
+   40  git rebase upstream/master
+   41  git log
+   42  BOARD=esp32-mh-et-live-minikit BUILD_IN_DOCKER=1 ESPTOOL=$(which esptool) make all flash term
+   43  cd RIOT/
+   44  git log
+   45  BOARD=esp32-mh-et-live-minikit BUILD_IN_DOCKER=1 ESPTOOL=$(which esptool) make all flash term
+   46  cd ..
+   47  BOARD=esp32-mh-et-live-minikit BUILD_IN_DOCKER=1 ESPTOOL=$(which esptool) make all flash term
+   48  git grep gcoap_listener_t
+   49  cd RIOT/
+   50  git grep gcoap_listener_t
+   51  mousepad sys/include/net/gcoap.h 
+   52  git revert --help
+   53  cd ..
+   54  git branch pr_revert_coap_init
+   55  git checkout pr_revert_coap_init 
+   56  git status
+   57  git revert 11da6e7
+   58  git config --global user.email "alex-fuhr@mail.de"
+   59  git config --global user.name "Alex Fuhr"
+   60  git revert 11da6e7
+   61  git revert 11da6e7 -f
+   62  git revert -f 11da6e7 
+   63  git revert 11da6e7 
+   64  git revert -help
+   65  git revert 11da6e7 -n
+   66  git status
+   67  git diff
+   68  git log
+   69  git diff
+   70  BOARD=esp32-mh-et-live-minikit BUILD_IN_DOCKER=1 ESPTOOL=$(which esptool) make all flash term
+   71  BOARD=esp32-mh-et-live-minikit BUILD_IN_DOCKER=1  make all flash term
+   72  BOARD=esp32-mh-et-live-minikit BUILD_IN_DOCKER=1 ESPTOOL=$(which esptool) make all flash term
