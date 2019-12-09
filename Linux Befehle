@@ -115,3 +115,12 @@ TO DO:
 
 
  Git clone "link" pressurerelative
+
+http://cbor.me/
+https://tools.ietf.org/html/rfc7252
+
+coap get fe80::260a:c4ff:fe10:5a30 5683 /.well-known/core
+
+find . -name "kernel_types.h"
+
+
