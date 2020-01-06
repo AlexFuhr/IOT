@@ -34,7 +34,7 @@ Folder: /home/networker/Desktop/ESP32-MINI-KIT/Shield libraries/ESP32/examples/T
 	Desktop/RIOT/tests/driver_bmx280$ 
  	
 	BOARD=esp32-mh-et-live-minikit BUILD_IN_DOCKER=1 ESPTOOL=$(which esptool) make all flash term 
-
+        esp32-wroom-32
 Dokumentation Adress:
 	https://riot-os.org/api/group__boards__esp32__mh-et-live-minikit.html
 	https://macsbug.wordpress.com/2017/07/10/esp32-minikit/
@@ -115,7 +115,6 @@ TO DO:
 
 
  Git clone "link" pressurerelative
-
 http://cbor.me/
 https://tools.ietf.org/html/rfc7252
 
